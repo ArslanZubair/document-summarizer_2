@@ -50,7 +50,7 @@ st.markdown('<p class="small-text">Turn your documents into concise, insightful 
 
 # Configure Google Gemini AI
 genai.configure(api_key="AIzaSyDxDy4AeLZ3086lATfUTuqSQ_95cdtENj0")
-model = genai.GenerativeModel("gemini-2.0-flash-exp" ,api_key="AIzaSyDxDy4AeLZ3086lATfUTuqSQ_95cdtENj0")
+model = genai.GenerativeModel("gemini-2.0-flash-exp")
 
 # ---- Function to extract text from PDF ----
 def extract_text_from_pdf(pdf_file):
