@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---- Title Section ----
-st.markdown('<h1 class="big-title">📄 AI Documents <br> Summarizer Tool</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="big-title">📄 AI Documents <br> Summarizer </h1>', unsafe_allow_html=True)
 st.markdown('<p class="small-text">Turn your documents into concise, insightful summaries with AI-powered analysis.✨</p>', unsafe_allow_html=True)
 
 # ---- Retrieve API key ----
